@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 Name :
 <input class="w3-input w3-padding-16" type="text" name="name">
 <br>
-Mobile Number :
+Mobile Number (+60) :
 <input class="w3-input w3-padding-16" type="number" name="noHp">
 <br>
 Email :

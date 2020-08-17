@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 <jsp:getProperty name="Reservation" property="name" /></p>
 <br>
 
-<p class="w3-input w3-padding-16">Mobile Number :
+<p class="w3-input w3-padding-16">Mobile Number(+60):
 <jsp:getProperty name="Reservation" property="noHp"/></p>
 <br>
 

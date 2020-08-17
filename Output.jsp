@@ -42,13 +42,14 @@ h1, h2, h3, h4, h5, h6 {
 <br>
 <br>
 <h2 class="w3-input w3-padding-16">Your Booking Has Completed!</h2>
+<h4 class="w3-input w3-padding-16">For any enquiries or booking cancellation please call +6012345678 </h4>
 <br>
 
 <p class="w3-input w3-padding-16">Name :
 <jsp:getProperty name="Reservation" property="name" /></p>
 <br>
 
-<p class="w3-input w3-padding-16">Mobile Number(+60):
+<p class="w3-input w3-padding-16">Mobile Number :
 <jsp:getProperty name="Reservation" property="noHp"/></p>
 <br>
 
@@ -68,10 +69,10 @@ h1, h2, h3, h4, h5, h6 {
     <a href="MainPage.jsp" class="button large hpbottom">Done Review</a>
 </div>
 
-
+<h2 class="w3-input w3-padding-16 w3-center">Thank You For Booking With Us! We Hope To See You Soon.</h2>
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">An-Nur</a></p>
 </footer>
 </body>
 </html>

@@ -113,6 +113,29 @@ Number of Pax :
 
 </form>
 </div>
+
+<%
+           String sql = "";
+           int count = 0;
+           Class.forName("com.mysql.cj.jdbc.Driver");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webapp?autoReconnect=true&useSSL=false","username","password");
+           sql="SELECT * FROM Reserve";
+           Statement statement = con.createStatement();                
+           ResultSet resultSet = statement.executeQuery(sql);
+           
+           while (resultSet.next()){
+        	   count++;
+        
+        	 
+        	 String name = resultSet.getString("Name");
+        	 int noHp = resultSet.getInt("noHp_id");
+        	 String email = resultSet.getString("Email");
+        	 String date = resultSet.getString("Date");
+        	 int noPax = resultSet.getInt("NoPax");
+           
+%>
+
+
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">An-Nur</a></p>

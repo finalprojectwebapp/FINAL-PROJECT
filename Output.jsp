@@ -39,30 +39,35 @@ h1, h2, h3, h4, h5, h6 {
 
 <jsp:setProperty name="Reservation" property="*" />
 
-<h2>Your Booking Has Completed!</h2>
+<br>
+<br>
+<h2 class="w3-input w3-padding-16">Your Booking Has Completed!</h2>
 <br>
 
-Name :
-<jsp:getProperty name="Reservation" property="name"/>
+<p class="w3-input w3-padding-16">Name :
+<jsp:getProperty name="Reservation" property="name" /></p>
 <br>
 
-Mobile Number :
-<jsp:getProperty name="Reservation" property="noHp"/>
+<p class="w3-input w3-padding-16">Mobile Number :
+<jsp:getProperty name="Reservation" property="noHp"/></p>
 <br>
 
-Email :
-<jsp:getProperty name="Reservation" property="email"/>
+<p class="w3-input w3-padding-16">Email :
+<jsp:getProperty name="Reservation" property="email"/></p>
 <br>
 
-Date & Time :
-<jsp:getProperty name="Reservation" property="date"/>
+<p class="w3-input w3-padding-16">Date & Time :
+<jsp:getProperty name="Reservation" property="date"/></p>
 <br>
 
-Number of Pax :
-<jsp:getProperty name="Reservation" property="noPax"/>
+<p class="w3-input w3-padding-16">Number of Pax :
+<jsp:getProperty name="Reservation" property="noPax"/></p>
 <br>
 <br>
-<a href="MainPage.jsp">Done Review</a>
+<div style="text-align: center">
+    <a href="MainPage.jsp" class="button large hpbottom">Done Review</a>
+</div>
+
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">

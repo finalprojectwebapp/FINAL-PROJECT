@@ -57,22 +57,21 @@ h1, h2, h3, h4, h5, h6 {
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
       <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+     <h4>Shawarma</h4>
+      <p class="w3-text-grey">Everyone's favourite to eat when the reports pile up. $5.00</p><br>
 
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h4>Nasi Lemak</h4>
+      <p class="w3-text-grey">When you know you are gonna have a long day, it's good to fill up your stomach with rice. $2.00</p><br>
 
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <h4>Waffle</h4>
+      <p class="w3-text-grey">Choose your flavor: Chocolate/Strawberry/Peanut butter. It is nice to have some snacks while discussing with friends. $3.50</p><br>
 
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+      <h4>French Toast</h4>
+      <p class="w3-text-grey">Combination of bread and egg to boost your energy! $5.00</p><br>
 
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <h4>Cake Slices (Cake-of-The-Day)</h4>
+      <p class="w3-text-grey">Why so stress? You need some sugar to make your day. $5.00</p>
     </div>
-
     <div class="w3-col l6 w3-padding-large">
       <img src="menu.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
     </div>

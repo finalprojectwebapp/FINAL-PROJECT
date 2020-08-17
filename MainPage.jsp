@@ -50,26 +50,31 @@ h1, h2, h3, h4, h5, h6 {
   <hr>
   
     <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
+   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
       <h1 class="w3-center">Our Menu</h1><br>
-     <h4>Shawarma</h4>
-      <p class="w3-text-grey">Everyone's favourite to eat when the reports pile up. $5.00</p><br>
+      <h4>Shawarma</h4>
+      <p class="w3-text-grey">Everyone's favourite to eat when the reports pile up. $5.00</p><br><br><br>
 
       <h4>Nasi Lemak</h4>
-      <p class="w3-text-grey">When you know you are gonna have a long day, it's good to fill up your stomach with rice. $2.00</p><br>
+      <p class="w3-text-grey">When you know you are gonna have a long day, it's good to fill up your stomach with rice. $2.00</p><br><br><br>
 
       <h4>Waffle</h4>
-      <p class="w3-text-grey">Choose your flavor: Chocolate/Strawberry/Peanut butter. It is nice to have some snacks while discussing with friends. $3.50</p><br>
+      <p class="w3-text-grey">Choose your flavor: Chocolate/Strawberry/Peanut butter. It is nice to have some snacks while discussing with friends. $3.50</p><br><br><br><br><br><br>
 
       <h4>French Toast</h4>
-      <p class="w3-text-grey">Combination of bread and egg to boost your energy! $5.00</p><br>
+      <p class="w3-text-grey">Combination of bread and egg to boost your energy! $5.00</p><br><br><br><br><br><br>
 
       <h4>Cake Slices (Cake-of-The-Day)</h4>
       <p class="w3-text-grey">Why so stress? You need some sugar to make your day. $5.00</p>
     </div>
+
     <div class="w3-col l6 w3-padding-large">
-      <img src="menu.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="Shawarma.jpg" class="w3-round w3-image w3-opacity-min" alt="Shawarma" style="width:50%">
+       <img src="NL.jpg" class="w3-round w3-image w3-opacity-min" alt="Nasi Lemak" style="width:50%">
+       <img src="WF.jpg" class="w3-round w3-image w3-opacity-min" alt="Waffle" style="width:50%" style="height:50%">
+       <img src="FT.jpg" class="w3-round w3-image w3-opacity-min" alt="French Toast" style="width:50%" style="height:50%">
+        <img src="CS.jpg" class="w3-round w3-image w3-opacity-min" alt="Cake Slices" style="width:50%">
     </div>
   </div>
 

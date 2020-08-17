@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     <div class="w3-center">
       <h1 class="w3-center">About Student's Kitchen</h1><br>
       <h5 class="w3-center">Since 2020</h5>
-      <p class="w3-center">Student's kitchen is founded by 4 students from International Islamic University Malaysia (IIUM). 
+      <p class="w3-center w3-padding-16">Student's kitchen is founded by 4 students from International Islamic University Malaysia (IIUM). 
           The restaurant's concept is "serve students by students". The founders know what student's love the best. 
           The restaurants not only serve foods but also, books for students to read for extra knowledge. 
           With the interior "library-restaurant" concepts, Student's Kitchen has become a place for students to discuss, meeting and eat. 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 Name :
 <input class="w3-input w3-padding-16" type="text" name="name">
 <br>
-Mobile Number (+60) :
+Mobile Number :
 <input class="w3-input w3-padding-16" type="number" name="noHp">
 <br>
 Email :
@@ -99,16 +99,23 @@ Date & Time :
 <input class="w3-input w3-padding-16" type="datetime-local" name="date">
 <br>
 Number of Pax :
-<input class="w3-input w3-padding-16" type="number" name="noPax">
+<br>
+  <input type="radio" id="pax1" name="noPax" value="1">
+  <label for="pax1"> 1 </label><br>
+  <input type="radio" id="pax2" name="noPax" value="2">
+  <label for="pax2"> 2 </label><br>
+  <input type="radio" id="pax3" name="noPax" value="3">
+  <label for="pax3"> 3 </label><br>
 <br>
 
 <input class="w3-input w3-padding-16" type="submit" value="Complete">
+<input class="w3-input w3-padding-16" type="reset" value="Clear">
 
 </form>
 </div>
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">An-Nur</a></p>
 </footer>
     
 </body>

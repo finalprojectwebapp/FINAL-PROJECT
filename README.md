@@ -1,1 +1,0 @@
-sab comel nak mampus!

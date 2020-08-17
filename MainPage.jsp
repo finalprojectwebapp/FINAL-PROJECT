@@ -35,12 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="about.jpg" class="w3-round w3-image w3-opacity-min" alt="Annur Cuisine" width="600" height="750">
-    </div>
-
-    <div class="w3-col m6 w3-padding-large">
+   <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-center">
       <h1 class="w3-center">About Student's Kitchen</h1><br>
       <h5 class="w3-center">Since 2020</h5>
       <p class="w3-center">Student's kitchen is founded by 4 students from International Islamic University Malaysia (IIUM). 

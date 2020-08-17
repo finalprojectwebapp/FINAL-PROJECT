@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
       <p class="w3-text-grey">Choose your flavor: Chocolate/Strawberry/Peanut butter. It is nice to have some snacks while discussing with friends. $3.50</p><br><br><br><br><br><br>
 
       <h4>French Toast</h4>
-      <p class="w3-text-grey">Combination of bread and egg to boost your energy! $5.00</p><br><br><br><br><br><br>
+      <p class="w3-text-grey">Combination of bread, eggs and fruits to boost your energy! $5.00</p><br><br><br><br><br><br>
 
       <h4>Cake Slices (Cake-of-The-Day)</h4>
       <p class="w3-text-grey">Why so stress? You need some sugar to make your day. $5.00</p>
